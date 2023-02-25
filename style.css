@@ -1,0 +1,83 @@
+body {
+    background-color: lightgray;
+}
+
+#pause-button {
+    margin-left: 135px;   
+}
+
+.container {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(244, 244, 92);
+    border: 1px solid darkgray;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blue;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(244, 244, 92);
+    border: 1px solid darkgray;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.extra {
+    height: 300px;
+    width: 50px;
+    margin-left: 70px;
+    font-size: 16px;
+}
+
+#bomb {
+    height: 40px;
+    width: 40px;
+    background-image: url('images/bomb_icon.png');
+    background-size: 40px;
+    background-color: lightgreen; 
+}
+
+#wand {
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-image: url('images/wand_icon.png');
+    background-size: 40px;
+    background-color: lightgreen; 
+}
+
+h3 {
+    font-size: 16px;
+    padding-left: 150px;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 70px;
+    color: blue;
+}
+
